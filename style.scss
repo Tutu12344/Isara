@@ -1,0 +1,15 @@
+.sub-title {
+  font-size: 14px;
+  position: relative;
+
+  .p {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.btn {
+  &__question {
+    background-color: #da6b64 !important;
+  }
+}

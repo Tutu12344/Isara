@@ -1,0 +1,14 @@
+.sub-title {
+  font-size: 14px;
+  position: relative;
+}
+
+.sub-title .p {
+  position: absolute;
+  bottom: 0;
+}
+
+.btn__question {
+  background-color: #da6b64 !important;
+}
+/*# sourceMappingURL=style.css.map */
