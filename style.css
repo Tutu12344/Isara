@@ -8,6 +8,10 @@
   bottom: 0;
 }
 
+.cover-img {
+  background-image: url(img/main.jpg);
+}
+
 .btn__question {
   background-color: #da6b64 !important;
 }
