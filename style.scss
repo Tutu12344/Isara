@@ -1,3 +1,5 @@
+@import "modules/mixin";
+
 .sub-title {
   font-size: 14px;
   position: relative;
@@ -8,11 +10,89 @@
   }
 }
 
-.cover-img {
+.title {
   background-image: url(img/main.jpg);
 }
 .btn {
   &__question {
     background-color: #da6b64 !important;
   }
+}
+
+.introduction {
+  margin-top: 100px;
+  background-image: url(img/introbottom.jpg);
+  height: 1000px;
+  background-size: cover;
+}
+
+.about {
+  // position: relative;
+
+  background-color: #fef5e0;
+
+  & .yellowborder {
+    padding: 30px 0px;
+  }
+  &__sub_description {
+    margin: 0 auto;
+    max-width: calc(100% - 40px);
+    margin-bottom: 5px;
+    padding: 30px;
+    border: solid 1px #000;
+    // text-align: center;
+
+    & .box {
+      margin: 0 auto;
+      // width: 20%;
+      // display: inline-block;
+      // width: 20%;
+      border: solid 1px #000;
+      padding: 0;
+    }
+  }
+}
+.step {
+  background-image: url(img/aboutsecondbg.jpg);
+  background-size: cover;
+  background-position: center;
+
+  height: 500px;
+  & .stepbox {
+    background-color: #fff;
+    & p {
+      background-color: #ebb94d;
+      color: white;
+      border-radius: 5px;
+    }
+
+    & .stepcontent {
+      & p {
+        background-color: #fff;
+        color: black;
+      }
+    }
+  }
+}
+.yellowborder {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 860px;
+  max-width: calc(100% - 40px);
+  padding: 15px 0px;
+  @include p-base(
+    $which: after,
+    $top: auto,
+    $left: auto,
+    $border-top: 0px,
+    $border-left: 0px
+  );
+  @include p-base(
+    $which: before,
+    $bottom: auto,
+    $right: auto,
+    $border-bottom: 0px,
+    $border-right: 0px
+  );
 }

@@ -1,0 +1,33 @@
+@mixin p-base(
+  $which: before,
+  $top: 0,
+  $left: 0,
+  $bottom: 0,
+  $right: 0,
+  $content: "",
+  $position: absolute,
+  $width: 50px,
+  $height: 50px,
+  $border-top: 4px solid #ebb94d,
+  $border-left: 4px solid #ebb94d,
+  $border-bottom: 4px solid #ebb94d,
+  $border-right: 4px solid #ebb94d,
+  $box-sizing: border-box
+) {
+  &::#{$which} {
+    content: $content;
+    position: $position;
+    top: $top;
+    left: $left;
+    bottom: $bottom;
+    right: $right;
+    width: $width;
+    height: $height;
+    border-top: $border-top;
+    border-left: $border-left;
+    border-bottom: $border-bottom;
+    border-right: $border-right;
+    box-sizing: border-box;
+    @content;
+  }
+}
