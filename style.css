@@ -67,6 +67,11 @@
   color: black;
 }
 
+.step_text {
+  background-color: #016ea9;
+  color: #fff;
+}
+
 .yellowborder {
   position: relative;
   -webkit-box-sizing: border-box;
