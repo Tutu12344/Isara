@@ -72,6 +72,108 @@
   color: #fff;
 }
 
+.merit {
+  background-color: #fef5e0 !important;
+}
+
+.learnfromlancer {
+  background-image: url(img/learnfromfreelancer.jpg);
+  display: block;
+  height: 150px;
+}
+
+.learnfromprojects {
+  background-image: url(img/learnfromprojects.jpg);
+  height: 150px;
+}
+
+.actuallyfree {
+  background-image: url(img/actuallyfree.jpg);
+  height: 150px;
+}
+
+.sub-title {
+  font-size: 14px;
+  position: relative;
+}
+
+.sub-title .p {
+  position: absolute;
+  bottom: 0;
+}
+
+.title {
+  background-image: url(img/main.jpg);
+}
+
+.btn__question {
+  background-color: #da6b64 !important;
+}
+
+.introduction {
+  margin-top: 100px;
+  background-image: url(img/introbottom.jpg);
+  height: 1000px;
+  background-size: cover;
+}
+
+.about {
+  background-color: #fef5e0;
+}
+
+.about .yellowborder {
+  padding: 30px 0px;
+}
+
+.about__sub_description {
+  margin: 0 auto;
+  max-width: calc(100% - 40px);
+  margin-bottom: 5px;
+  padding: 30px;
+  border: solid 1px #000;
+}
+
+.about__sub_description .box {
+  margin: 0 auto;
+  border: solid 1px #000;
+  padding: 0;
+}
+
+.step {
+  background-image: url(img/aboutsecondbg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.step .stepbox {
+  background-color: #fff;
+}
+
+.step .stepbox p {
+  background-color: #ebb94d;
+  color: white;
+  border-radius: 5px;
+}
+
+.step .stepbox .stepcontent p {
+  background-color: #fff;
+  color: black;
+}
+
+.step_text {
+  background-color: #016ea9;
+  color: #fff;
+}
+
+.learnfromlancer {
+  background-image: url(img/learnfromfreelancer.jpg);
+}
+
+.learnfromprojects {
+  background-image: url(img/learnfromprojects.jpg);
+}
+
 .yellowborder {
   position: relative;
   -webkit-box-sizing: border-box;
